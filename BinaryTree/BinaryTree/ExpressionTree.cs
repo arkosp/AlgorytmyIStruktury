@@ -5,6 +5,9 @@ using System.Text;
 
 namespace BinaryTree
 {
+    /// <summary>
+    /// Umożliwia zbudowanie oraz obliczenia prostego wyrażenia podanego w ONP http://pl.wikipedia.org/wiki/Odwrotna_notacja_polska
+    /// </summary>
     class ExpressionTree
     {
         private Stack<Node<ExpressionElement>> _stack = new Stack<Node<ExpressionElement>>();

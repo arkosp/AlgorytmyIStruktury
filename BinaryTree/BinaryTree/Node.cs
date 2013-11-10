@@ -5,6 +5,10 @@ using System.Text;
 
 namespace BinaryTree
 {
+    /// <summary>
+    /// Węzeł drzewa
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     class Node<T>
     {
         public Node(T aValue)

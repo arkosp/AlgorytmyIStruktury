@@ -5,6 +5,9 @@ using System.Text;
 
 namespace BinaryTree
 {
+    /// <summary>
+    /// Element wyrażenia
+    /// </summary>
     class ExpressionElement
     {
         public double Value { get; set; }
